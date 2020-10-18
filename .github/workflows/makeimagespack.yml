@@ -23,9 +23,7 @@ jobs:
         sudo add-apt-repository ppa:inkscape.dev/stable
         sudo apt update
         sudo apt install inkscape
-        sh write-png-packed-svg.sh day1/j1*_fr.svg
-        mkdir -p dist/
-        mv output.* dist/
+        python translate.py
     - name: upload images pack artifact
       uses: actions/upload-artifact@v2
       with:
