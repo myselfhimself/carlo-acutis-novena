@@ -50,3 +50,5 @@ Le Frasi di Carlo Acutis
 
 “ Il vero discepolo di Gesù Cristo è colui che in ogni cosa cerca di imitarlo e di fare la volontà di Dio”.
 
+Se gli uomini sapessero che cos’è l’Eternità farebbero di tutto per cambiare vita
+https://it.aleteia.org/2016/11/24/informatica-ed-eucaristia-carlo-acutis-verso-la-beatificazione/

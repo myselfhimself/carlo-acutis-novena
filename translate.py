@@ -11,7 +11,7 @@ os.makedirs(TARGET_DIRECTORY, exist_ok=True)
 def render_as_png_packed_svg(original_svg_path):
     output_png_path = original_svg_path.split(".")[0] + ".png"
     output_svg_path = original_svg_path.split(".")[0] + "_text_as_path.svg"
-    os.popen("inkscape {input_filename} -C -o {output_png_path}".format(input_filename=original_svg_path,
+    os.popen("inkscape {input_filename} --export-background=\"#ffffff\" --export-background-opacity=255 -C -o {output_png_path}".format(input_filename=original_svg_path,
                                                                         output_png_path=output_png_path))
     os.popen("inkscape {input_filename} --export-text-to-path --export-filename={output_svg_path}".format(
         input_filename=original_svg_path, output_svg_path=output_svg_path))
