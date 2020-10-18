@@ -1,5 +1,7 @@
 # Meditative graphics for a Carlo Acutis novena
 
+Inkscape / G'MIC day-by-day graphics in this repository were created to illustrate [this Carlo Acutis french-speaking novena on Hozana.org in October 2020](https://hozana.org/publication/99504-neuvieme-jour-le-raccourci-infaillible).
+
 Pure copyleft
 
 Original images were grabbed from the Internet and tuned, in order to help spend 9 days of meditation with this young man, in french for now.
