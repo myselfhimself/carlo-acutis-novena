@@ -15,7 +15,7 @@
    id="svg8"
    inkscape:version="1.0 (1.0+r73+1)"
    sodipodi:docname="j8_euchari.svg"
-   inkscape:export-filename="/home/jd/Productions/carlo-acutis-novena/day7/j7_senza.png"
+   inkscape:export-filename="/home/jd/Productions/carlo-acutis-novena/day8/j8_euchari.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -576,8 +576,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.28601749"
-     inkscape:cx="860.21972"
-     inkscape:cy="592.44649"
+     inkscape:cx="972.10099"
+     inkscape:cy="793.07969"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -617,7 +617,7 @@
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0.95;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:369.072;display:none;opacity:0.224156;fill:url(#linearGradient1221);fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter1843)"
        xml:space="preserve" />
     <image
-       style="display:inline"
+       style="display:inline;"
        y="-325.10751"
        x="-150.72321"
        width="658.6427"
@@ -7455,7 +7455,7 @@ AjQAAAAAABE397aPOZEbrooAAAAASUVORK5CYII=
        id="image1983" />
     <image
        transform="rotate(179.1887,158.5028,-128.68978)"
-       style="display:inline;opacity:0.529806;mix-blend-mode:soft-light;fill:none;fill-opacity:1;filter:url(#filter3048)"
+       style="display:inline;opacity:0.529806;mix-blend-mode:soft-light;fill:none;fill-opacity:1;"
        y="-424.59073"
        x="-150.72321"
        width="658.6427"
@@ -21130,7 +21130,7 @@ AjQAAAAAABE397aPOZEbrooAAAAASUVORK5CYII=
        width="658.6427"
        x="-150.72321"
        y="-424.59073"
-       style="display:inline;opacity:0.173467;mix-blend-mode:soft-light;fill:none;fill-opacity:1;filter:url(#filter4656)" />
+       style="display:inline;opacity:0.173467;mix-blend-mode:soft-light;fill:none;fill-opacity:1;" />
     <rect
        style="display:none;opacity:0.845568;fill:url(#linearGradient963);fill-opacity:1;stroke-width:0.173536"
        id="rect947"
@@ -21140,7 +21140,7 @@ AjQAAAAAABE397aPOZEbrooAAAAASUVORK5CYII=
        y="-125.37646" />
     <image
        transform="rotate(-4.1776797,1565.6709,-424.33209)"
-       style="display:inline;opacity:0.430056;mix-blend-mode:soft-light;fill:none;fill-opacity:1;filter:url(#filter4642)"
+       style="display:inline;opacity:0.430056;mix-blend-mode:soft-light;fill:none;fill-opacity:1;"
        y="-424.59073"
        x="-150.72321"
        width="658.6427"
@@ -34814,11 +34814,11 @@ AjQAAAAAABE397aPOZEbrooAAAAASUVORK5CYII=
        width="658.6427"
        x="-150.72321"
        y="-424.59073"
-       style="display:inline;fill:none;fill-opacity:1;filter:url(#filter3048)"
+       style="display:inline;fill:none;fill-opacity:1;"
        transform="rotate(3.6200518,-1406.8372,-199.65839)" />
     <image
        transform="translate(-4.7625001,102.65834)"
-       style="display:inline;fill:none;fill-opacity:1;stroke:#6a330c;stroke-opacity:1;filter:url(#filter3048)"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#6a330c;stroke-opacity:1;"
        y="-424.59073"
        x="-150.72321"
        width="658.6427"
@@ -41657,7 +41657,7 @@ AjQAAAAAABE397aPOZEbrooAAAAASUVORK5CYII=
        clip-path="url(#clipPath2994)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:0.95;font-family:'04b03';-inkscape-font-specification:'04b03, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:369.072;mix-blend-mode:normal;fill:url(#linearGradient3237);fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:0.95;font-family:'04b03';-inkscape-font-specification:'04b03, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:369.072;mix-blend-mode:normal;fill:url(#linearGradient3237);fill-opacity:1;stroke:none;stroke-width:0.264583;"
        x="-25.57266"
        y="-2.0648386"
        id="text3235"
@@ -41684,14 +41684,14 @@ AjQAAAAAABE397aPOZEbrooAAAAASUVORK5CYII=
        height="392.99399"
        width="456.98227"
        id="rect4600"
-       style="display:inline;opacity:1;mix-blend-mode:soft-light;fill:url(#radialGradient4628);fill-opacity:1;stroke:url(#radialGradient4612);stroke-width:0.264583;stroke-opacity:1" />
+       style="display:inline;opacity:1;mix-blend-mode:soft-light;fill:url(#radialGradient4628);fill-opacity:1;stroke:url(#radialGradient4612);stroke-width:0.264583;stroke-opacity:1;" />
     <text
        clip-path="none"
        transform="matrix(3.064657,0.15873926,-0.15873926,3.064657,64.211536,-115.08555)"
        id="text4672"
        y="-2.0648386"
        x="-25.57266"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:0.95;font-family:'04b03';-inkscape-font-specification:'04b03, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:369.072;display:inline;opacity:0.408124;mix-blend-mode:soft-light;fill:url(#linearGradient4674);fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:0.95;font-family:'04b03';-inkscape-font-specification:'04b03, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:369.072;display:inline;opacity:0.408124;mix-blend-mode:soft-light;fill:url(#linearGradient4674);fill-opacity:1;stroke:none;stroke-width:0.264583;"
        xml:space="preserve"><tspan
          x="-25.57266"
          y="-2.0648386"><tspan
