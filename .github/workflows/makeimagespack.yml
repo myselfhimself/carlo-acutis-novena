@@ -19,7 +19,7 @@ jobs:
         mkdir -p ~/.local/share/fonts
         cp asset/04b_03/*.TTF ~/.local/share/fonts
         fc-cache -f -v
-        apt install inkscape
+        sudo apt install inkscape
         sh write-png-packed-svg.sh day1/j1*_fr.svg
         mkdir -p dist/
         mv output.* dist/
