@@ -14,3 +14,5 @@ Given that Carlo is now somewhere in Heaven and on Earth, who knows exactly and 
 Carlo Acutis (1991-2005) from Italy, brought and will bring much inspiration to truth seekers, computer scientists and teens. He died aged 15 of agressive leukemia. Dead people healing living people is too scarce in this world not to be mentioned (cf. [the young Mattheus case in Brasil, 2013](https://www.ncregister.com/news/the-miracle-attributed-to-carlo-acutis-prayers)).
 
 Tools used: [Inkscape](https://inkscape.org/), [gmic-py](https://github.com/myselfhimself/gmic-py/), [04b03 font](http://www.04.jp.org/).
+
+The `04b03` TTF font is under a freeware license, it is embedded in the `asset/04b_03` directory. Make sure you read its `.gif` license before modifying this project.

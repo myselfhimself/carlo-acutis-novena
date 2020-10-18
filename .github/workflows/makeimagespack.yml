@@ -1,0 +1,30 @@
+name: Make translated novena images pack
+on: [push]
+
+jobs:
+  make-translated-novena-images-pack:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+
+    - name: Make images pack
+      working-directory: ./
+      run: |
+        mkdir -p ~/.local/share/fonts
+        cp asset/04b_03/*.TTF ~/.local/share/fonts
+        fc-cache -f -v
+        apt install inkscape
+        sh write-png-packed-svg.sh day1/j1*_fr.svg
+        mkdir -p dist/
+        mv output.* dist/
+    - name: upload images pack artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: images pack
+        path: dist/
