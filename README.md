@@ -10,3 +10,5 @@ Novena in 2 forms:
   - [spanish novena group](https://hozana.org/communaute/9385-novena-con-el-beato-carlo-acutis) - work in progress.
 
 Check out the [LICENSE](LICENSE) file, this is all Public Domain.
+
+Work being presented here in editor/designer-oriented form is what the [neuvaine-carlo-acutis.fr](https://www.neuvaine-carlo-acutis.fr/) website showcases.
