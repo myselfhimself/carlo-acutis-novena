@@ -1,0 +1,24 @@
+name: Make translated novena leaflet pack
+on: [push]
+
+jobs:
+  make-translated-novena-leaflet-pack:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+
+    - name: Make pack
+      working-directory: leaflet-novena/
+      run: |
+        sh make_leaflet_pack.sh
+    - name: upload pack artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: novena_leaflet_pack
+        path: leaflet-novena/dist/

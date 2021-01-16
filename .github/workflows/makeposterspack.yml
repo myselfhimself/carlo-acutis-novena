@@ -1,0 +1,24 @@
+name: Make translated novena images pack
+on: [push]
+
+jobs:
+  make-translated-novena-posters-pack:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+
+    - name: Make posters pack
+      working-directory: posters-novena/
+      run: |
+        sh posters-novena/translate_posters_ci.sh
+    - name: upload posters pack artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: novena_posters_pack
+        path: posters-novena/dist/
