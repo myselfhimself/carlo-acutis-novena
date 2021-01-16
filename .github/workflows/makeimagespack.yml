@@ -27,5 +27,5 @@ jobs:
     - name: upload images pack artifact
       uses: actions/upload-artifact@v2
       with:
-        name: images pack
+        name: novena_images_pack
         path: posters-novena/dist/

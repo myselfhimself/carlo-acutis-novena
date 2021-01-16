@@ -16,3 +16,6 @@ Carlo Acutis (1991-2005) from Italy, brought and will bring much inspiration to 
 Tools used: [Inkscape](https://inkscape.org/), [gmic-py](https://github.com/myselfhimself/gmic-py/), [04b03 font](http://www.04.jp.org/).
 
 The `04b03` TTF font is under a freeware license, it is embedded in the `asset/04b_03` directory. Make sure you read its `.gif` license before modifying this project.
+
+# Rebuilding translated poster cards
+Poster cards (plain SVG files) can be translated to new languages. To do this, edit the [translations.csv](translations.csv) file and run the [translate.py](translate.py) script with Python 3.x with Inkscape installed. Results are stored in a new `dist/{language code}` directory.

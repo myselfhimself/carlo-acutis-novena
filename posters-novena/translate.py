@@ -1,6 +1,7 @@
 import csv
 import os
 import os.path
+import shutil
 
 days = {}
 DEFAULT_LANG = "fr"
@@ -28,11 +29,24 @@ for day_id, day in days.items():
     svg_filepath = os.path.join("day{day_id}".format(day_id=day_id),
                                 svg_filename_pattern.format(day_id=day_id, lang=DEFAULT_LANG))
 
+    png_filename_pattern = "day{day_id}_{lang}.png"
+    png_filepath = os.path.join("day{day_id}".format(day_id=day_id),
+                                png_filename_pattern.format(day_id=day_id, lang=DEFAULT_LANG))
+
     for multilang_row in day:
         for lang in multilang_row:
-            if lang != "fr":
-                svg_translated_filepath = os.path.join(TARGET_DIRECTORY,
+            lang_dir = os.path.join(TARGET_DIRECTORY, lang)
+
+            os.makedirs(lang_dir, exist_ok=True)
+
+            svg_translated_filepath = os.path.join(lang_dir,
                                                        svg_filename_pattern.format(day_id=day_id, lang=lang))
+
+            png_translated_filepath = os.path.join(lang_dir,
+                                                       png_filename_pattern.format(day_id=day_id, lang=lang))
+            # If current iteration language is not the source language ie. french
+            # translate SVG and re-render PNG and store into {TARGET_DIRECTORY}/{lang}/
+            if lang != "fr":
                 with open(svg_filepath, "r") as fin:
                     with open(svg_translated_filepath, "w") as fout:
                         for line in fin:
@@ -42,3 +56,7 @@ for day_id, day in days.items():
                             fout.write(line)
 
                 render_as_png_packed_svg(svg_translated_filepath)
+            else:
+                # If language is the source language (fr), just copy files as is into {TARGET_DIRECTORY}/{lang}/
+                shutil.copy2(svg_filepath, svg_translated_filepath)
+                shutil.copy2(png_filepath, png_translated_filepath)
