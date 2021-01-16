@@ -20,7 +20,7 @@ def render_as_png_packed_svg(original_svg_path):
         input_filename=original_svg_path, output_svg_path=output_svg_path))
 
 if __name__ == "__main__":
-    if sys.argv:
+    if len(sys.argv) > 1:
         TARGET_DIRECTORY = sys.argv[1]
 
     with open("translations.csv") as csvfile:
