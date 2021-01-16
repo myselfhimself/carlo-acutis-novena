@@ -1,5 +1,8 @@
 name: Make translated novena images pack
-on: [push]
+on:
+  push:
+    tags-ignore:
+      - v*
 
 jobs:
   make-translated-novena-posters-pack:

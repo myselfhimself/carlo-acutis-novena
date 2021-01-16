@@ -18,10 +18,12 @@ jobs:
         run: |
           cd leaflet-novena/
           sh make_leaflet_pack.sh
+          mv leaflets ..
           cd ../posters-novena/
-          sh make_posters_pack.sh posters/
+          sh make_posters_pack.sh
+          mv posters ..
           cd ..
-          zip -r carlo-acutis-novena.zip leaflet-novena/leaflets posters-novena/posters
+          zip -r carlo-acutis-novena.zip leaflets posters
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
