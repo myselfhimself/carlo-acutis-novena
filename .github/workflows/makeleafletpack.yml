@@ -21,4 +21,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: novena_leaflet_pack
-        path: leaflet-novena/dist/
+        path: leaflet-novena/leaflets/

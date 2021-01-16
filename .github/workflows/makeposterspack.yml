@@ -21,4 +21,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: novena_posters_pack
-        path: posters-novena/dist/
+        path: posters-novena/posters/

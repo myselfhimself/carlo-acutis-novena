@@ -2,6 +2,6 @@
 
 sudo apt-get install -y zip
 
-mkdir dist
+mkdir leaflets
 
-cp -r fr dist/
+cp -r fr leaflets/
