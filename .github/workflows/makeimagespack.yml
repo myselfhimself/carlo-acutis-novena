@@ -14,7 +14,7 @@ jobs:
         python-version: 3.7
 
     - name: Make images pack
-      working-directory: ./
+      working-directory: posters-novena/
       run: |
         mkdir -p ~/.local/share/fonts
         cp asset/04b_03/*.TTF ~/.local/share/fonts
@@ -23,7 +23,6 @@ jobs:
         sudo add-apt-repository ppa:inkscape.dev/stable
         sudo apt update
         sudo apt install inkscape
-        cd posters-novena/
         python translate.py
     - name: upload images pack artifact
       uses: actions/upload-artifact@v2
