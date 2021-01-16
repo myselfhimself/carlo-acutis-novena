@@ -21,7 +21,7 @@ def render_as_png_packed_svg(original_svg_path):
 
 if __name__ == "__main__":
     if sys.argv:
-        TARGET_DIRECTORY = sys.argv[0]
+        TARGET_DIRECTORY = sys.argv[1]
 
     with open("translations.csv") as csvfile:
         rows = csv.DictReader(csvfile, delimiter=',', quotechar='"')
