@@ -13,4 +13,4 @@ fc-cache -f -v
 sudo add-apt-repository ppa:inkscape.dev/stable
 sudo apt update
 sudo apt install inkscape
-python3 translate.py posters
+./translate.py posters
