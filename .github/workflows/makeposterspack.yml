@@ -16,7 +16,7 @@ jobs:
     - name: Make posters pack
       working-directory: posters-novena/
       run: |
-        sh posters-novena/translate_posters_ci.sh
+        sh posters-novena/make_posters_pack.sh
     - name: upload posters pack artifact
       uses: actions/upload-artifact@v2
       with:
